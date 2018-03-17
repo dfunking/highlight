@@ -3,6 +3,7 @@ const Client = require("./lib/HighlightClient");
 const config = require("../config.json");
 
 const client = new Client({
+        prefix: 'h!'
 	cmdEditing: true,
 	cmdLogging: true,
 	disableEveryone: true,
